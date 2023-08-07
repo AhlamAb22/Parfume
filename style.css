@@ -1,0 +1,74 @@
+.hero{
+background-color: hsl(30, 38%, 92%);
+height: 100vh;
+align-items: center;
+padding-top: 20%;
+padding-left: 35%;
+}
+
+.container{
+    background-color: #fff;
+    width: 70%;
+    height: 440px;
+    border-radius: 3%;
+    overflow: hidden;
+}
+
+.container img{
+    height: 500px;
+    width: 50%;
+    margin-top: -400px;
+    background-size: contain;
+}
+
+.text{
+    margin-left: 55%;
+    width: auto;
+}
+
+.text button{
+    background-color:hsl(158, 36%, 37%) ;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    width: 200px;
+    height: 40px;
+}
+
+.text button img{
+    height: 12px;
+    width: 13px;
+    margin-right: 9px;
+
+}
+
+.text h1 {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
+}
+
+.text .current-price{
+    color:hsl(158, 36%, 37%) ;
+}
+
+.text p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+
+.text h5{
+    text-transform: uppercase;
+    font-size: 11px;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+}
+
+small{
+    font-size: 11px;
+    color: hsl(228, 12%, 48%);
+    text-decoration:line-through;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
